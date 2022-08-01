@@ -29,9 +29,4 @@ const lightbox = new SimpleLightbox(".gallery a",
   },
 );
 
-lightbox.on("shown.simplelightbox", function () {
-  const el = document.querySelector('.caption')
-  el.style.textAlign = 'center'
-
-});
 

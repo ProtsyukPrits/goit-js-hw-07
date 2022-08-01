@@ -38,7 +38,9 @@ function handleClick(e) {
 
   instance.show();
 
-  function escapeKeyCloses() {
-    instance.close()
+  function escapeKeyCloses(e) {
+    if (e.key === 'Escape') {
+      instance.close()
+    }
   }
 }
